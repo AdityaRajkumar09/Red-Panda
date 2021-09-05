@@ -1,2 +1,0 @@
-# Red-Panda
-Red-Panda
