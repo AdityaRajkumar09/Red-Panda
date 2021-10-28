@@ -1,0 +1,81 @@
+ body{
+   background-color:white;
+ }           
+       
+h1{
+  font-family: Roboto Thin;
+  font-size: xx-large;
+  color: rgba(216, 86, 86, 0.856);
+  padding-top: 0px;
+}
+
+nav{
+  width:100%;
+  Height:50px;
+}
+
+ ul li{
+   list-style:none;
+   display:inline-block;
+
+}
+  
+ul li a{
+  display: block;
+   text-decoration: none;
+   font-size: x-large;
+   font-family: Roboto Thin;
+   color:rgba(216, 86, 86, 0.856);
+   padding: 20px 20px;
+   font-weight: 900;
+} 
+
+ul li a:hover{
+ color:white;
+} 
+  
+ul li a:hover{
+  background-color: rgba(216, 86, 86, 0.856);
+ } 
+
+ .div1{
+   background-color: white;
+   text-align: center;
+   position: sticky;
+   top:0px;
+   width:100%;
+ }
+   
+.div2{
+  background-color: rgba(216, 86, 86, 0.856);
+  width:100%;
+  position:absolute;
+  
+}
+
+  .txt1{
+      float: right;
+      font-family: Roboto Thin;
+      color: white;
+      font-size:x-large;
+      margin-right: 50px;
+      
+    
+    }
+    
+
+    .div3{
+      background-color: tan;
+      color:rgba(216, 86, 86, 0.856)
+      float: left;
+      font-family: Roboto Thin;
+      color: white;
+      font-size:x-large;
+      margin-right: 50px;
+      padding-top: 375px;
+    }
+
+    .pic1{
+      float: left;
+    }
+    
