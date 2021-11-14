@@ -1,0 +1,66 @@
+body{
+  background-color:white;
+}           
+      
+
+
+nav{
+ width:100%;
+ Height:50px;
+}
+
+ul li{
+  list-style:none;
+  display:inline-block;
+
+}
+ 
+ul li a{
+ display: block;
+  text-decoration: none;
+  font-size: x-large;
+  font-family: Roboto Thin;
+  color:rgba(216, 86, 86, 0.856);
+  padding: 20px 20px;
+  font-weight: 900;
+} 
+
+ul li a:hover{
+color:white;
+} 
+ 
+ul li a:hover{
+ background-color: rgba(216, 86, 86, 0.856);
+}
+
+.div1{
+  background-color:rgb(231, 224, 224);
+  font-family: Roboto Thin;
+  text-align: center;
+  position: sticky;
+  top:0px;
+  width:100%;
+  padding-top: 10px;
+  font-size:large;
+  color: rgba(216, 86, 86, 0.856);
+  padding-bottom: 20px;
+}
+
+.txt1{
+  background-color: rgba(216, 86, 86, 0.856);
+  width:94%;
+  position:absolute;
+  padding-left: 50px;
+  font-family:"Roboto Thin";
+  font-size: x-large;
+  padding-right: 50px;
+  color:white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img1{
+  float:left;
+
+}
+  
