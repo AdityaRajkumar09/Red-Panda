@@ -47,10 +47,14 @@ body{
   }
 
   .div2{
-    color:rgba(216, 86, 86, 0.856);
-    font-size:x-large;
+    color:maroon;
+    font-size:large;
     padding-top: 50px;
     padding-left: 50px;
     padding-right:50px;
     font-family: Roboto Thin;
+  }
+
+  u{
+    text-decoration-color:black ;
   }

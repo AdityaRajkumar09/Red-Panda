@@ -50,16 +50,43 @@ ul li a:hover{
   padding-bottom: 20px;
 }
 
-.div2{
+tr.tr1{
   background-color: rgba(216, 86, 86, 0.856);
+}
+td.div2{
   width:94.7%;
   font-family: Roboto Thin;
   font-size: x-large;
   color:white;
   padding-top: 50px;
+  padding-left:450px;
+  padding-right: 50px;
+  padding-bottom:10px;
+  text-align:right;
+}
+
+.div3{
+  background-color: white;
+  width:94.7%;
+  font-family: Roboto Thin;
+  font-size: x-large;
+  color:maroon;
+  padding-top: 50px;
   padding-left:50px;
   padding-right: 50px;
-  padding-bottom:130px;
+  padding-bottom:10px;
+}
+
+h3.just{
+  text-align:justify;
+}
+
+.img1{
+  float:left;
+  padding-left: 10px;
+}
+u{
+  text-decoration-color:black ;
 }
 
 

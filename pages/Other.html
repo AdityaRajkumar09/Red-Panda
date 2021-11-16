@@ -7,15 +7,14 @@
 </head>
 <body>
 <div class="div1">
-  <h1>Glossary and more</h1>
+  <h1>The Red Panda</h1>
 
   <nav>
     <ul>
       <li><a class="active" href="../index.html">Home</a></li>
-      <li><a href="The red panda.html">The Red Panda</a></li>
       <li><a href="Threatred.html">Threat</a></li>
       <li><a href="Uhelpred.html">How you can help</a></li>
-      <li><a href="Other.html">Other</a></li>
+      <li><a href="Other.html"><u>Glossary</u></a></li>
     </ul>
   </nav><br>
 
@@ -35,5 +34,41 @@
 <a href="https://www.w3schools.com/">Coding Techniques at W3schools</a><br>
 <a href="https://en.wikipedia.org/wiki/Red_panda#Threats">wikipedia</a><br>
 </div>
+
+<style>
+  .scroll-left {
+   height: 50px;	
+   overflow: hidden;
+   position: relative;
+   background: white;
+   color: maroon;
+   border: 1px solid white;
+  }
+  .scroll-left p {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   line-height: 50px;
+   text-align: center;
+   /* Starting position */
+   transform:translateX(100%);
+   /* Apply animation to this element */
+   animation: scroll-left 15s linear infinite;
+  }
+  /* Move it (define the animation) */
+  @keyframes scroll-left {
+   0%   {
+   transform: translateX(50%); 		
+   }
+   100% {
+   transform: translateX(-70%); 
+   }
+  }
+  </style>
+  
+  <div class="scroll-left">
+  <p>Created and Coded by Aditya Rajkumar 7A </p>
+  </div>
 </body>
 </html>

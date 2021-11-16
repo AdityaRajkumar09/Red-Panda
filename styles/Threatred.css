@@ -41,7 +41,6 @@ ul li a:hover{
   top:0px;
   width:100%;
   padding-top: 10px;
-  font-size:large;
   color: rgba(216, 86, 86, 0.856);
   padding-bottom: 20px;
 }
@@ -54,12 +53,37 @@ ul li a:hover{
   font-family:"Roboto Thin";
   font-size: x-large;
   padding-right: 50px;
-  color:rgba(216, 86, 86, 0.856);
+  color:maroon;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+}
+
+h3.just{
+  text-align: justify;
+}
+
+td.td1{
+  padding-left: 50px;
+  font-family:"Roboto Thin";
+  font-size: x-large;
+  padding-right: 50px;
+  color:white;
   padding-top: 50px;
+  text-align: left;
   padding-bottom: 50px;
 }
 
 .img1{
   float:right;
+  padding-right: 50px;
 }
   
+tr.tr1{
+  background-color: rgba(216, 86, 86, 0.856);
+  padding-bottom: 10px;
+}
+
+u{
+  text-decoration-color:black ;
+}

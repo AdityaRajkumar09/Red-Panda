@@ -2,7 +2,7 @@
    background-color:white;
  }           
        
-h1{
+h1{ 
   font-family: Roboto Thin;
   color: rgba(216, 86, 86, 0.856);
   padding-top: 0px;
@@ -52,15 +52,19 @@ ul li a:hover{
   
 }
 
-  .txt1{
-      float: right;
-      font-family: Roboto Thin;
-      color: white;
-      font-size:x-large;
-      margin-right: 50px;
-      
-    
-    }
+tr.headerRow{
+  float: right;
+  font-family: Roboto Thin;
+  color: white;
+  font-size:x-large;
+  background-color: rgba(216, 86, 86, 0.856);
+  width:100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align:center;
+}
+
+
     
     .div3{
       font-family: Roboto Thin;
@@ -73,9 +77,9 @@ ul li a:hover{
     .div4{
       float: left;
       font-family: Roboto Thin;
-      color:rgba(216, 86, 86, 0.856);
+      color:maroon;
       font-size:x-large;
-      padding-top:350px;
+      padding-top:50px;
       padding-left:50px;
       padding-right:50px;
     }
@@ -83,11 +87,41 @@ ul li a:hover{
     .div5{
       float: left;
       font-family: Roboto Thin;
-      color: rgba(216, 86, 86, 0.856);
+      color: maroon;
       font-size:x-large;
       padding-top: 150px;
       padding-left:50px;
        padding-right:50px;
+    }
+
+    tr.table2{ 
+      text-align: left;
+      font-family: Roboto Thin;
+      color:maroon;
+      font-size:x-large;
+      padding-top:50px;
+      padding-left:50px;
+      padding-right:50px;
+
+    }
+
+    td.td1{
+      padding-left: 50px;
+      padding-right:50px;
+    }
+
+    .img2{
+      float:right;
+    }
+
+    u{
+      text-decoration-color:black ;
+    }
+
+    h3.just{
+      text-align:justify;
+      padding-left:50px;
+      padding-right:50px;
     }
 
   
