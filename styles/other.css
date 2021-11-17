@@ -1,50 +1,53 @@
 body{
-    background-color:white;
-  }           
-        
-  
-  
-  nav{
-   width:100%;
-   Height:50px;
-  }
-  
-  ul li{
-    list-style:none;
-    display:inline-block;
-  
-  }
-   
-  ul li a{
-   display: block;
-    text-decoration: none;
-    font-size: x-large;
-    font-family: Roboto Thin;
-    color:rgba(216, 86, 86, 0.856);
-    padding: 20px 20px;
-    font-weight: 900;
-  } 
-  
-  ul li a:hover{
-  color:white;
-  } 
-   
-  ul li a:hover{
-   background-color: rgba(216, 86, 86, 0.856);
-  }
-  
-  .div1{
-    background-color:rgb(231, 224, 224);
-    font-family: Roboto Thin;
-    text-align: center;
-    position: sticky;
-    top:0px;
-    width:100%;
-    padding-top: 10px;
-    font-size:large;
-    color: rgba(216, 86, 86, 0.856);
-    padding-bottom: 20px;
-  }
+  background-color:white;
+}           
+      
+h1{
+ font-family: Roboto Thin;
+ font-size: xx-large;
+ color: rgba(216, 86, 86, 0.856);
+ padding-top: 0px;
+}
+
+nav{
+ width:100%;
+ Height:50px;
+}
+
+ul li{
+  list-style:none;
+  display:inline-block;
+
+}
+ 
+ul li a{
+ display: block;
+  text-decoration: none;
+  font-size: x-large;
+  font-family: Roboto Thin;
+  color:rgba(216, 86, 86, 0.856);
+  padding: 20px 20px;
+  font-weight: 900;
+} 
+
+ul li a:hover{
+color:white;
+} 
+ 
+ul li a:hover{
+ background-color: rgba(216, 86, 86, 0.856);
+} 
+
+.div1{
+  background-color:rgb(231, 224, 224);
+  font-family: Roboto Thin;
+  text-align: center;
+  top:0px;
+  width:100%;
+  padding-top: 10px;
+  font-size:large;
+  color: rgba(216, 86, 86, 0.856);
+}
 
   .div2{
     color:maroon;
@@ -57,4 +60,43 @@ body{
 
   u{
     text-decoration-color:black ;
+  }
+
+
+  .scroll-left {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    color: black;
+    border: 1px solid white;
+  }
+  .scroll-left p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    animation: scroll-left 15s linear infinite;
+  }
+  /* Move it (define the animation) */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(-70%);
+    }
+  }
+
+  .img43849{
+    background-color: rgba(216, 86, 86, 0.856);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
   }
