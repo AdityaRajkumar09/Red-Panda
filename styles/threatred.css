@@ -40,7 +40,6 @@ ul li a:hover{
   background-color:rgb(231, 224, 224);
   font-family: Roboto Thin;
   text-align: center;
-  position: sticky;
   top:0px;
   width:100%;
   padding-top: 10px;
@@ -58,7 +57,7 @@ ul li a:hover{
   padding-right: 50px;
   color:maroon;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 
 }
 
@@ -98,6 +97,7 @@ u{
   background: white;
   color: black;
   border: 1px solid white;
+  margin-top: 450px;
  }
  .scroll-left p {
   position: absolute;
